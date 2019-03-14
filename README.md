@@ -2,11 +2,21 @@
 
 In this repository you will have access to Ibrahim Taher's implementation of the Client-Server Visualization for DS5500. In order to run this code please follow these steps:
 
+**PLEASE ENSURE THAT YOU HAVE THE FOLLOWING PYTHON LIBRARIES INSTALLED**
+
+* Pandas
+
+* Scikit-learn
+
+* Flask
+
+* Flask_restful
+
 1. Clone this repository onto your local machine
 
-2. Go to the directory where this was cloned.
+2. Go to the directory where this was cloned via command prompt/bash.
 
-3. Run flask_roc.py
+3. Run flask_roc.py by typing in "python flask_roc.py"
 
 4. Open a bash/command prompt window and go to this directory
 
