@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<meta charset="utf-8"/>
+</head>
+
+<body>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+
+<h3>Select Hyperparameters for Logistic Regression</h3>
+
+Preprocessing
+
+<div>
+  <input type="radio" id="min-max" name="drone" value="min-max" checked>
+  <label for="min-max">Min-Max</label>
+</div>
+
+<div>
+  <input type="radio" id="standard" name="drone" value="standardization">
+  <label for="standard">Standardization</label>
+</div>
+
+
+<p>
+<label>C: 
+<input type="text" name="c" value=0.5 required>
+</label> 
+</p>
+
+<p>
+ <button id="plotButton">
+ 	Plot ROC
+ </button>
+</label> 
+</p>
+
+
+
+<script src='https://d3js.org/d3.v5.min.js'></script>
+
+<script src="main.js"></script>
+
+
+</body>
+</html>
